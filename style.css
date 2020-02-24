@@ -1,0 +1,332 @@
+/*-------------fonts----------*/
+@font-face{
+    font-family: tangobt;
+    src: url(TangoBT.ttf);
+}
+
+@font-face{
+    font-family: american-captain;
+    src: url("Amcap.ttf");
+}
+@font-face{
+    font-family: consolas;
+    src: url("consola.ttf");
+}
+@font-face{
+    font-family: Dohong;
+    src: url("DohongkalibaFreeVersion.ttf");
+}
+
+html,body{
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    min-height: 100%;
+    background-color: #ffd081;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+.container{
+    background-color: #ffd091;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    min-height: 100%;
+    position: relative;
+    
+}
+
+.container h2{
+    color: rgb(122, 27, 27);
+}
+
+.maincontent{
+    font-family: tangobt;
+    font-size: 34px;
+    color: rgb(114, 20, 20) ;
+    line-height: 60px;      
+}
+
+
+.Ginie{
+    width: 125px;
+    height: 125px;
+    border: 12.5px solid #ffd091;
+}
+
+.WC{
+    width: auto;
+    height: 150px;
+}
+
+.Ginie:hover{
+    background-color: #fff;
+    border: 12.5px solid white;
+}
+
+.WC:hover{
+    background-color: #fff;
+}
+
+
+
+/*-----------------navbar---------------*/
+
+nav{
+    width: 100%;
+    background-color: #310804;
+    margin-top: -25px;
+  }
+  
+  nav ul{
+    display: flex;
+    text-decoration: none;
+    font-family: Trade Winds;
+    font-style: italic;
+    list-style-type: none;
+    justify-content: space-around;
+    
+  }
+  
+  nav ul li{
+    color: #f5f5f5;
+    text-decoration: underline;
+    margin-top: 23px;
+  }
+  nav img{
+    padding: 2px;
+    margin: 10px;
+    background-color: #fff;
+    
+  }
+
+/*-----------row 1------------------*/
+
+.site-new {
+    width: calc(30%);
+    background-color: #e95740;
+    height:450px ;
+    margin-left: 50px;
+    border-radius: 30px;
+    border: 3px solid black;
+    box-shadow: 5px 5px #222222;
+    font-family: american-captain;   
+    font-size: 48px;
+    float: left;
+}
+.site-new .yellow{
+    background-color: #e4b21c;
+    border-radius: 30px;
+    margin: 10px 5px 0px;
+    color: #0c3547; 
+    padding: 15px;
+}
+.site-new .yellow h4{
+    display: inline;
+}
+
+.site-new .retro p{
+    font-family: american-captain;  
+    text-align: left;
+    margin-left: 60px;
+    color: #000000;
+    font-size: 48px;
+    
+}
+.site-new .past p{
+    font-family: american-captain;
+    text-align: right;
+    color: #000000;
+    font-size: 48px;
+    padding: 0px 20px;
+    
+}
+
+.yellow:hover{
+    background-color: white;
+}
+
+.retro:hover{
+    background-color: white;
+    
+    width: 200px;
+}
+
+.past:hover{
+    background-color: white;
+    widows: 250px;
+}
+
+
+.spl-events{
+    width: calc(60%);
+    background-color: #e95740;
+    margin-left: 550px;
+    border-radius: 30px;
+    border: 3px solid black;
+    box-shadow: 5px 5px #222222;
+    font-family: american-captain;   
+    font-size: 48px;
+    height: 550px;
+    
+
+}
+.spl-events .yellow{
+    background-color: #e4b21c;
+    border-radius: 30px;
+    margin: 10px 5px 0px;
+    color: #0c3547; 
+    padding: 15px;
+    margin-bottom: 25px;
+}
+
+.spl-events h4{
+    display: inline;
+}
+.spl-events p{
+    font-family: american-captain;
+    color: #000000;  
+    font-size: 48px;
+    
+    margin-bottom: -30px;
+}
+
+
+.spl-events p:hover, .yellow:hover{
+    background-color: #fff;
+}
+
+/*------table-------*/
+table {
+  
+    table-layout: fixed;
+  width: calc(50% - 15px);
+  height:1000px;
+  float: left;
+  margin: 5px;
+  box-shadow: 4px 6px;
+  
+  
+}
+
+.devices-people{
+    font-family: Monoton;
+    text-shadow: 0.5px 0.5px #000000;
+}
+.devices-people th{
+    font-family: american-captain;
+    font-size: 50px;
+}
+
+
+.games-arts th{
+    font-family: american-captain;
+    font-size: 50px;
+}
+
+.games-events{
+    font-family: Dohong;
+    font-size: 69px;
+
+}
+.games-events th{
+    font-family: american-captain;
+    font-size: 50px;
+}
+
+
+
+    table.table1 {
+  background-color: rgb(255, 59, 52);
+  border-radius: 10px;
+  
+  }
+  table.table2 {
+  background-color: rgb(255, 59, 52);
+  border-radius: 10px;}
+   th{
+  
+  text-transform: uppercase;
+  color:rgb(39, 106, 135);
+  
+}
+th,td,tr {
+    text-align: center;
+    border-radius: 10px;
+    
+    font-size: 20px;
+    word-wrap: break-word;
+    
+    
+    }
+
+
+ 
+  table tr:nth-child(1) {
+    background-color: rgb(255, 233, 1);
+    
+  }
+
+table tr:nth-child(2) {
+    background-color: rgb(102, 189, 204);
+  }
+  table tr:nth-child(3) {
+   background-color: rgb(255, 162, 19);
+  }
+  table tr:nth-child(4) {
+    background-color: rgb(255, 251, 0);
+  }
+  table tr:nth-child(5) {
+   background-color: rgb(90, 85, 130);
+  }
+  table tr:nth-child(6) {
+    background-color: rgb(178, 108, 89);
+  }
+  table tr:nth-child(7) {
+   background-color: rgb(255, 231, 196);
+  }
+  td:hover {background-color:#f5f5f5;}
+  table:hover {background-color:#f5f5f5;}
+
+  
+
+/*-------footer--------*/
+footer{
+    background-color:#000;
+    color: #bbbbbb;
+    font-size: 18px;
+    height: 270px;
+    font-family: consolas;
+    text-align: center;
+    margin-top: 4080px;
+}
+
+footer .footer-content{
+    font-family: consolas;
+    display: flex;
+}
+
+footer .footer-content .footer-section{
+    flex: 1;
+    padding: 20px;
+    font-family: consolas;
+}
+
+footer .footer-content .footer-section .about {
+    text-align: center;
+}
+footer .footer-content .footer-section textarea{
+    
+    padding: 30px 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    
+}
+
+#contactus{
+    font-size: 20px;
+}
